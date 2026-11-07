@@ -1,7 +1,5 @@
-import { TheThingsiForget  } from './componet/ThingsiForget'
-import {  ForForLoop } from './Pages/ForLoop'
-import { ForInstallReact } from './Pages/InstallReact'
-import { ForReactRouter } from './Pages/ReactRouter'
+import { ForHomePage } from './Pages/HomePage' 
+import { ForTodoList } from './Pages/TodoList'
 import { Routes ,Route} from 'react-router'
 import { ForLocation } from './Pages/Location'
 import './index.css'
@@ -16,13 +14,11 @@ function App() {
       <Route path='checklocation' element={<ForLocation />}>
         
         </Route>
-      <Route path='/' element={ <TheThingsiForget /> }></Route>
+      <Route path='/' element={ <ForHomePage /> }></Route>
      
-      <Route path='forloop' element={ <ForForLoop/>}></Route>
+      <Route path='todolist' element={ <ForTodoList /> }></Route>
 
-      <Route path='forinstallreact' element={ <ForInstallReact /> }></Route>
-
-       <Route path='forreactrouter' element={ <ForReactRouter /> }></Route>
+       
      </Routes>
      </>
      
@@ -33,3 +29,5 @@ function App() {
 }
 
 export default App
+
+
