@@ -95,7 +95,7 @@
       <div  >
         {
          check && (
-          <div className="fixed  top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2   inset-0 bg-white w-[90%] h-[80%]  flex flex-col  justify-center items-center gap-[90px] rounded-[20px]">
+          <div className="fixed  top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2   inset-0 bg-white w-[90%] h-[90%]  flex flex-col  justify-center items-center gap-[90px] rounded-[20px]">
             
          <p className="text-[30px] font-['Plus_Jakarta_Sans']  border-black font-bold bg-yellow-500 w-[80%] text-center h-[50px] rounded-[4px]">Add New-Task</p>
          <textarea placeholder="write new task" className=" border-[2px] border-yellow-500 w-[90%] h-[90px] rounded-[10px] pt-[10px] pl-[10px] pr-[10px] text-[20px] bg-black text-yellow-500 " onChange={typedtext} type="text" />
