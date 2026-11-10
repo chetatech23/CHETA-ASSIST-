@@ -100,7 +100,7 @@
          <p className="text-[30px] font-['Plus_Jakarta_Sans']  border-black font-bold bg-yellow-500 w-[80%] text-center h-[50px] rounded-[4px]">Add New-Task</p>
          <textarea placeholder="write new task" className=" border-[2px] border-yellow-500 w-[90%] h-[90px] rounded-[10px] pt-[10px] pl-[10px] pr-[10px] text-[20px] bg-black text-yellow-500 " onChange={typedtext} type="text" />
          <div className="flex gap-[10px]">
-         <p className="font-['Plus_Jakarta_Sans'] text-[23px]">Pick a Date - </p> <input onChange={pickeddate }  type="date"  className="text-[22px] font-['Plus_Jakarta_Sans'] "/>
+         <p className="font-['Plus_Jakarta_Sans'] text-[23px]">Pick a Date - </p> <button className="bg-yellow-500 text-[20px]">PICK<input onChange={pickeddate }  type="date"  className="text-[22px] font-['Plus_Jakarta_Sans'] "/></button>
          </div>
          <button  className="bg-black text-white h-[100px] w-[80%] text-[20px] font-['Plus_Jakarta_Sans'] rounded-[20px]" onClick={addtolist}>ADD TO TODOLIST</button>
 
